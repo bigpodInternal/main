@@ -31,6 +31,7 @@ rpm-ostree install \
 #done
 
 #rpm-ostree install /tmp/akmods-rpms/kmods/*.rpm
+rpm-ostree install kmod-v4l2loopback kmod-wl
 
 #for REPO in $(rpm -ql ublue-os-akmods-addons|grep ^"/etc"|grep repo$); do
 #    echo "akmods: disable per defaults: ${REPO}"
